@@ -1,7 +1,8 @@
-##**Token Swap DApp**
+## **Token Swap DApp**
+
 This project is a decentralized application (dApp) that allows users to swap between two ERC-20 tokens at a fixed exchange rate (1 WETH = 2400 USDT). It is built using Solidity smart contracts and integrates with a React-based frontend powered by Next.js and Ethers.js. Hardhat Ignition is used for development, testing, and deployment.
 
-##**Features**
+## **Features**
 * Deploy and manage two ERC-20 tokens (WETH and USDT)
 
 * Swap tokens at a fixed rate of 1 WETH = 2400 USDT
@@ -14,7 +15,7 @@ This project is a decentralized application (dApp) that allows users to swap bet
 
 * Frontend built with Next.js and styled with Tailwind CSS
 
-##**Tech Stack**
+## **Tech Stack**
 * Solidity (0.8.28)
 
 * Hardhat & Hardhat Ignition
@@ -27,7 +28,7 @@ This project is a decentralized application (dApp) that allows users to swap bet
 
 * OpenZeppelin Contracts
 
-##**Project Structure**
+## **Project Structure**
 ```bash
 Token-Swap/
 ├── contracts/            # Solidity contracts (TokenA, TokenB, SwapContract)
@@ -40,13 +41,13 @@ Token-Swap/
 ├── .env.local            # Environment variables (not committed)
 ```
 
-##**Prerequisites**
+# #**Prerequisites**
 * MetaMask browser extension
 
 * Sepolia ETH (can be requested from a faucet)
 
 
-##**Installation**
+## **Installation**
 
  1. Clone the repository:
 
@@ -68,7 +69,7 @@ Smart contracts will compile automatically during deployment or testing. To comp
 npx hardhat compile
 ```
 
-##**Deployment**
+## **Deployment**
 
  1. Create a .env.local file in the root with the following variables:
 
@@ -92,7 +93,7 @@ NEXT_PUBLIC_TOKEN_A_ADDRESS=0xDeployedTokenAAddress
 NEXT_PUBLIC_TOKEN_B_ADDRESS=0xDeployedTokenBAddress
 ```
 
-##**Running the Frontend**
+## **Running the Frontend**
 Start the Next.js development server:
 
 ```bash
@@ -101,7 +102,7 @@ npm run dev
 
 Open your browser and visit http://localhost:3000 to access the dApp.
 
-##**Wallet Connection**
+## **Wallet Connection**
 MetaMask: Click "Connect MetaMask" to connect your injected wallet.
 
 Non-Custodial Wallet: Click "Create Wallet" to generate a wallet using a seed phrase. Save your seed phrase securely!
